@@ -13,6 +13,8 @@
 		EE53845027A897E800D38B56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53843E27A897E700D38B56 /* ContentView.swift */; };
 		EE53845127A897E800D38B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE53843F27A897E800D38B56 /* Assets.xcassets */; };
 		EE53845227A897E800D38B56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE53843F27A897E800D38B56 /* Assets.xcassets */; };
+		EE53845C27A8997900D38B56 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53845B27A8997900D38B56 /* SecondView.swift */; };
+		EE53845D27A8997900D38B56 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53845B27A8997900D38B56 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		EE53844427A897E800D38B56 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE53844A27A897E800D38B56 /* TestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE53844C27A897E800D38B56 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		EE53845B27A8997900D38B56 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				EE53843D27A897E700D38B56 /* TestGitApp.swift */,
 				EE53843E27A897E700D38B56 /* ContentView.swift */,
+				EE53845B27A8997900D38B56 /* SecondView.swift */,
 				EE53843F27A897E800D38B56 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE53845C27A8997900D38B56 /* SecondView.swift in Sources */,
 				EE53844F27A897E800D38B56 /* ContentView.swift in Sources */,
 				EE53844D27A897E800D38B56 /* TestGitApp.swift in Sources */,
 			);
@@ -185,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE53845D27A8997900D38B56 /* SecondView.swift in Sources */,
 				EE53845027A897E800D38B56 /* ContentView.swift in Sources */,
 				EE53844E27A897E800D38B56 /* TestGitApp.swift in Sources */,
 			);
